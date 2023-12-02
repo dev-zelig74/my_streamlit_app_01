@@ -1,4 +1,4 @@
-import streamlit
+import streamlit as st
 import pandas as pd
 
 streamlit.title('My first streamlit app')
@@ -13,3 +13,5 @@ df = pd.DataFrame(
         "Sex": ["male", "male", "female"],
     }
 )
+
+st.write(df)
