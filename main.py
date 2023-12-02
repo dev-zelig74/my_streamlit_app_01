@@ -1,4 +1,4 @@
-import stremlit
+import streamlit
 import pandas as pd
 
 streamlit.title('My first streamlit app')
