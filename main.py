@@ -15,3 +15,4 @@ df = pd.DataFrame(
 )
 
 st.write(df)
+st.write(df["Age"])
