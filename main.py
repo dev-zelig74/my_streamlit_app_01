@@ -17,6 +17,6 @@ df = pd.DataFrame(
 st.write(df)
 st.write(df["Age"])
 
-ages = pd.Series("Age": [22,35,58])
+ages = pd.Series([22,35,58], name="Age")
 st.write(ages)
 
