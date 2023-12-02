@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-streamlit.title('My first streamlit app')
+st.title('My first streamlit app')
 df = pd.DataFrame(
     {
         "Name": [
