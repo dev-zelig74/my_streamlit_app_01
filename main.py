@@ -1,5 +1,5 @@
 import stremlit
-import pandas
+import pandas as pd
 
 streamlit.title('My first streamlit app')
 df = pd.DataFrame(
